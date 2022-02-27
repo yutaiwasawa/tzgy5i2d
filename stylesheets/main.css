@@ -52,7 +52,7 @@ table {
 html {
   font-size: 62.5%;
   overflow-x: hidden; }
-  @media (min-width: 67.5em) {
+  @media (min-width: 46.875em) {
     html {
       font-size: 100%; } }
 
@@ -62,17 +62,17 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1080px; }
+  max-width: 750px; }
 
 .row {
-  margin: 0 3.7037%; }
-  @media (min-width: 67.5em) {
+  margin: 0 6%; }
+  @media (min-width: 46.875em) {
     .row {
       margin: 0 50px; } }
 
 .reset-row-sp {
   margin: 0; }
-  @media (min-width: 67.5em) {
+  @media (min-width: 46.875em) {
     .reset-row-sp {
       margin: 0 50px; } }
 
@@ -87,7 +87,7 @@ a {
   display: inline-block;
   text-decoration: none;
   transition: all linear 0.1s; }
-  @media (min-width: 67.5em) {
+  @media (min-width: 46.875em) {
     a:hover {
       opacity: 0.95;
       cursor: pointer; } }
@@ -108,9 +108,9 @@ a {
   display: inline-block;
   padding: 2.6rem 0;
   position: relative;
-  width: 24%;
+  width: 36.36364%;
   z-index: 1; }
-  @media (min-width: 67.5em) {
+  @media (min-width: 46.875em) {
     .btn {
       padding: 34px 0;
       width: 360px; } }
@@ -120,7 +120,7 @@ a {
     font-size: 1.8rem;
     font-weight: 600;
     position: relative; }
-    @media (min-width: 67.5em) {
+    @media (min-width: 46.875em) {
       .btn.btn-cta {
         font-size: 22px; } }
     .btn.btn-cta .arrow {
@@ -129,7 +129,7 @@ a {
       right: 5.92885%;
       transform: translateY(-50%);
       width: 12px; }
-      @media (min-width: 67.5em) {
+      @media (min-width: 46.875em) {
         .btn.btn-cta .arrow {
           width: 14px; } }
 
@@ -138,7 +138,7 @@ a {
 
 .section-content {
   padding: 5.6rem 0; }
-  @media (min-width: 67.5em) {
+  @media (min-width: 46.875em) {
     .section-content {
       padding: 126px 0; } }
 
@@ -171,25 +171,25 @@ a {
   padding-top: clamp(10px, 50%, 35px);
   padding-bottom: clamp(10px, 50%, 40px);
   text-align: center; }
-  @media (min-width: 67.5em) {
+  @media (min-width: 46.875em) {
     .more-btn {
       padding-top: 77px;
       padding-bottom: 115px; } }
   .more-btn img {
-    max-width: 16%; }
-    @media (min-width: 67.5em) {
+    max-width: 24.24242%; }
+    @media (min-width: 46.875em) {
       .more-btn img {
         width: 250px; } }
 
 .sp-view {
   display: block; }
-  @media (min-width: 67.5em) {
+  @media (min-width: 46.875em) {
     .sp-view {
       display: none; } }
 
 .pc-view {
   display: none; }
-  @media (min-width: 67.5em) {
+  @media (min-width: 46.875em) {
     .pc-view {
       display: block; } }
 
@@ -202,7 +202,7 @@ body {
     position: absolute;
     bottom: 2%;
     right: 3%;
-    width: 34.62963%; }
+    width: 34.66667%; }
 
 #cm .movie {
   background: #151515;
@@ -210,7 +210,7 @@ body {
   padding: 7.5% 0 4.5%; }
   #cm .movie .heading {
     margin: 0 0 4%;
-    width: 93.42593%; }
+    width: 93.33333%; }
   #cm .movie .youtube {
     position: relative;
     width: 100%;
@@ -221,7 +221,7 @@ body {
       right: 0;
       left: 0;
       margin: auto;
-      width: 88.88889%;
+      width: 88.8%;
       height: 100%; }
 
 #cm .cta-btns {
@@ -240,7 +240,7 @@ body {
       #cm .cta-btns .cta-btns-list.only-btn .cta-btns-list__item {
         width: 100%; }
         #cm .cta-btns .cta-btns-list.only-btn .cta-btns-list__item a {
-          width: 86.2963%; }
+          width: 86.26667%; }
         #cm .cta-btns .cta-btns-list.only-btn .cta-btns-list__item img {
           width: 100%; }
 
@@ -248,7 +248,7 @@ body {
   padding: 9% 0; }
   #contact .heading {
     margin: 0 auto 7%;
-    width: 77.5%;
+    width: 77.6%;
     display: block; }
 
 .footer-section {
@@ -256,7 +256,8 @@ body {
   color: #838383;
   padding: 7% 0; }
   .footer-section .footer-logo {
-    width: 35.74074%; }
+    margin: 0 0 0 6%;
+    width: 36%; }
 
 #bottom-fix-btn {
   background: #fff;
@@ -274,7 +275,8 @@ body {
     opacity: 1; }
   #bottom-fix-btn .cta-btns-list {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 100%; }
     #bottom-fix-btn .cta-btns-list__item {
       width: 50%; }
       #bottom-fix-btn .cta-btns-list__item img {
@@ -287,7 +289,7 @@ body {
       #bottom-fix-btn .cta-btns-list.only-btn .cta-btns-list__item {
         width: 100%; }
         #bottom-fix-btn .cta-btns-list.only-btn .cta-btns-list__item a {
-          width: 86.2963%; }
+          width: 86.26667%; }
         #bottom-fix-btn .cta-btns-list.only-btn .cta-btns-list__item img {
           width: 100%; }
 
