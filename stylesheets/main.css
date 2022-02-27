@@ -198,28 +198,19 @@ body {
 
 .kv {
   position: relative; }
-  .kv .download-btn {
-    position: absolute;
-    top: 49.5%;
-    right: 7.8%;
-    width: 46.48148%; }
   .kv .cm-btn {
     position: absolute;
-    bottom: 1%;
-    right: 2%;
-    width: 35%; }
-  .kv .logo {
-    text-align: center; }
-    .kv .logo img {
-      width: 31.2963%; }
+    bottom: 2%;
+    right: 3%;
+    width: 34.62963%; }
 
 #cm .movie {
   background: #151515;
   text-align: center;
-  padding: 6% 0 4.5%; }
+  padding: 7.5% 0 4.5%; }
   #cm .movie .heading {
-    margin: 0 0 6%;
-    width: 52.96296%; }
+    margin: 0 0 4%;
+    width: 93.42593%; }
   #cm .movie .youtube {
     position: relative;
     width: 100%;
@@ -234,8 +225,8 @@ body {
       height: 100%; }
 
 #cm .cta-btns {
-  background: #c1c1c1;
-  padding: 3% 0; }
+  background: #008b97;
+  padding: 2.8% 0 2%; }
   #cm .cta-btns .cta-btns-list {
     display: flex;
     justify-content: space-between; }
@@ -243,45 +234,29 @@ body {
       width: 50%; }
       #cm .cta-btns .cta-btns-list__item img {
         width: 97.91667%; }
+    #cm .cta-btns .cta-btns-list.only-btn {
+      display: block;
+      text-align: center; }
+      #cm .cta-btns .cta-btns-list.only-btn .cta-btns-list__item {
+        width: 100%; }
+        #cm .cta-btns .cta-btns-list.only-btn .cta-btns-list__item a {
+          width: 86.2963%; }
+        #cm .cta-btns .cta-btns-list.only-btn .cta-btns-list__item img {
+          width: 100%; }
 
 #contact {
   padding: 9% 0; }
   #contact .heading {
     margin: 0 auto;
-    width: 76.11111%;
+    width: 77.5%;
     display: block; }
 
 .footer-section {
   background: #262626;
   color: #838383;
-  padding: 12% 0 4%; }
-  .footer-section .footer-nav-list {
-    background: #262626;
-    font-size: 1.4rem;
-    letter-spacing: 0.3rem; }
-    .footer-section .footer-nav-list__item {
-      padding: 2% 0;
-      width: 100%; }
-      .footer-section .footer-nav-list__item .text {
-        font-size: 1.6rem; }
-      .footer-section .footer-nav-list__item .link {
-        align-items: center;
-        border-bottom: 1px solid #838383;
-        cursor: pointer;
-        display: flex;
-        justify-content: space-between;
-        width: 100%; }
-        .footer-section .footer-nav-list__item .link .arrow {
-          width: 4.16667%; }
+  padding: 7% 0; }
   .footer-section .footer-logo {
-    margin: 0 0 7%;
-    width: 37.77778%; }
-  .footer-section .address {
-    font-size: 1.3rem;
-    line-height: 1.9;
-    margin: 7% 0 4%; }
-  .footer-section small {
-    font-size: 1rem; }
+    width: 35.74074%; }
 
 #bottom-fix-btn {
   background: #fff;
@@ -292,27 +267,29 @@ body {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  transition: opacity 0.2s linear; }
+  transition: opacity 0.2s linear;
+  background: #008b97;
+  padding: 2.8% 0 2%; }
   #bottom-fix-btn.active {
     opacity: 1; }
-  #bottom-fix-btn .thumb {
-    width: 25%; }
-  #bottom-fix-btn .title-btn {
+  #bottom-fix-btn .cta-btns-list {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 70%; }
-    #bottom-fix-btn .title-btn .title {
-      font-size: 1.6rem;
-      font-weight: 600; }
-    #bottom-fix-btn .title-btn .cta-btn {
-      border-radius: 0.3rem;
+    justify-content: space-between; }
+    #bottom-fix-btn .cta-btns-list__item {
+      width: 50%; }
+      #bottom-fix-btn .cta-btns-list__item img {
+        width: 97.91667%; }
+    #bottom-fix-btn .cta-btns-list .row {
+      width: 100%; }
+    #bottom-fix-btn .cta-btns-list.only-btn {
       display: block;
-      font-size: 1.4rem;
-      background: #2f2f2f;
-      color: #fff;
-      padding: 6% 4%;
       text-align: center; }
+      #bottom-fix-btn .cta-btns-list.only-btn .cta-btns-list__item {
+        width: 100%; }
+        #bottom-fix-btn .cta-btns-list.only-btn .cta-btns-list__item a {
+          width: 86.2963%; }
+        #bottom-fix-btn .cta-btns-list.only-btn .cta-btns-list__item img {
+          width: 100%; }
 
 
 /*# sourceMappingURL=main.css.map*/

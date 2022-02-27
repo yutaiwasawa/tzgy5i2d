@@ -34,7 +34,7 @@
     <!-- End Google Tag Manager -->
     <link href="./stylesheets/main.css" rel="stylesheet" />
   </head>
-  <body>
+  <body ontouchstart="">
     <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe
@@ -47,13 +47,9 @@
     <div class="container">
       <main>
         <div class="kv">
-          <img class="kv-bg" src="./images/kv-bg2.png" alt="fism" /><a
-            class="download-btn"
-            href=""
-            ><img
-              src="./images/download-btn.png"
-              alt="資料ダウンロードはこちら" /></a
-          ><a class="cm-btn" href="#cm"
+          <img class="kv-bg" src="./images/kv.png" alt="FISM" /><a
+            class="cm-btn"
+            href="#cm"
             ><img src="./images/cm-btn.png" alt="CM放送中！CMを見る"
           /></a>
         </div>
@@ -78,14 +74,7 @@
           </div>
           <div class="cta-btns">
             <div class="row">
-              <ul class="cta-btns-list">
-                <li class="cta-btns-list__item">
-                  <a href=""
-                    ><img
-                      src="./images/document-request-btn.png"
-                      alt="資料請求する"
-                  /></a>
-                </li>
+              <ul class="cta-btns-list only-btn">
                 <li class="cta-btns-list__item">
                   <a href="#contact"
                     ><img src="./images/contact-btn.png" alt="お問い合わせ"
@@ -95,6 +84,21 @@
             </div>
           </div>
         </div>
+        <div class="what-is-influence-data">
+          <img
+            src="./images/what-is-influence-data.png"
+            alt="インフルエンスデータとは"
+          />
+        </div>
+        <div class="can-influence-data">
+          <img
+            src="./images/can-influence-data.png"
+            alt="それ、インフルエンスデータでできますよ"
+          />
+        </div>
+        <div class="achievement png">
+          <img src="./images/achievement.png" alt="取引実績" />
+        </div>
         <div id="contact">
           <img
             class="heading"
@@ -103,7 +107,6 @@
           />
           <div class="form">
             <div class="row">
-              ここにフォーム
               <script id="_bownow_cs_sid_60c95604293afdb9af0e">
                 var _bownow_cs_sid_60c95604293afdb9af0e =
                   document.createElement("script");
@@ -120,48 +123,19 @@
       </main>
       <footer class="footer-section">
         <div class="row">
-          <img class="footer-logo" src="./images/footer-logo.png" alt="FISM" />
-          <div class="address">
-            〒113-0033<br />東京都文京区本郷1-33-13<br />春日町ビル6F
-          </div>
-          <img class="p-mark" src="./images/p-mark.png" alt="Pマーク" />
-          <ul class="footer-nav-list">
-            <li class="footer-nav-list__item">
-              <a class="link" href="https://fisminc.com/service/"
-                ><span class="text">Service</span
-                ><img class="arrow" src="./images/arrow.png" alt="矢印"
-              /></a>
-            </li>
-            <li class="footer-nav-list__item">
-              <a class="link" href="https://fisminc.com/news/"
-                ><span class="text">News</span
-                ><img class="arrow" src="./images/arrow.png" alt="矢印"
-              /></a>
-            </li>
-            <li class="footer-nav-list__item">
-              <a class="link" href="https://fisminc.com/company/"
-                ><span class="text">Company</span
-                ><img class="arrow" src="./images/arrow.png" alt="矢印"
-              /></a>
-            </li>
-            <li class="footer-nav-list__item">
-              <a class="link" href="https://fisminc.com/contact/"
-                ><span class="text">Contact</span
-                ><img class="arrow" src="./images/arrow.png" alt="矢印"
-              /></a>
-            </li>
-            <li class="footer-nav-list__item">
-              <a class="link" href="https://fisminc.com/recruit/"
-                ><span class="text">Recruit</span
-                ><img class="arrow" src="./images/arrow.png" alt="矢印"
-              /></a>
-            </li>
-          </ul>
-          <small>©2022 FISM</small>
+          <img class="footer-logo" src="./images/logo-grey.svg" alt="FISM" />
         </div>
       </footer>
       <div id="bottom-fix-btn">
-        <a class="cta-btn" href="#contact">button</a>
+        <div class="row">
+          <ul class="cta-btns-list only-btn">
+            <li class="cta-btns-list__item">
+              <a href="#contact"
+                ><img src="./images/contact-btn.png" alt="お問い合わせ"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <script src="./javascripts/main.js"></script>
